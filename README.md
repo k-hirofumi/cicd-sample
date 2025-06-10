@@ -1,12 +1,66 @@
-# React + Vite
+# 📝 React ToDo アプリ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Vite と React を使用したモダンな ToDo アプリケーションです。
 
-Currently, two official plugins are available:
+## ✨ 機能
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ タスクの追加
+- ✅ タスクの完了状態の切り替え
+- ✅ タスクの削除
+- ✅ 完了済みタスクの進捗表示
+- ✅ レスポンシブデザイン
+- ✅ 美しいグラデーション UI
 
-## Expanding the ESLint configuration
+## 🚀 開発環境のセットアップ
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 前提条件
+
+- Node.js (v18.16.1 以上)
+- npm または yarn
+
+### インストールと起動
+
+```bash
+# 依存関係のインストール
+npm install
+
+# 開発サーバーの起動
+npm run dev
+```
+
+アプリケーションは `http://localhost:5173` で起動します。
+
+## 🛠️ 利用技術
+
+- **React 18** - UIライブラリ
+- **Vite** - ビルドツール
+- **ESLint** - コード品質チェック
+- **CSS3** - スタイリング（グラデーション、アニメーション）
+
+## 📱 レスポンシブデザイン
+
+デスクトップ、タブレット、スマートフォンに対応したレスポンシブデザインを採用しています。
+
+## 🔧 その他のコマンド
+
+```bash
+# プロダクションビルド
+npm run build
+
+# プレビュー
+npm run preview
+
+# コードの品質チェック
+npm run lint
+```
+
+## 📂 プロジェクト構造
+
+```
+src/
+├── App.jsx          # メインアプリケーションコンポーネント
+├── App.css          # アプリケーションスタイル
+├── index.css        # グローバルスタイル
+├── main.jsx         # エントリーポイント
+└── assets/          # 静的ファイル
+```
