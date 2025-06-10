@@ -11,7 +11,7 @@ on:
         type: string
 
 env:
-  DOCKER_IMAGE: your-dockerhub-username/react-todo-app
+  DOCKER_IMAGE: hirofumi1623/cicd-sample
 
 jobs:
   build-and-push:
